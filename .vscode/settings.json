@@ -1,0 +1,11 @@
+{
+    "extensions.ignoreRecommendations": true,
+    "C_Cpp.default.configurationProvider": "particle.particle-vscode-core",
+    "files.associations": {
+        "*.ino": "cpp"
+    },
+    "particle.targetDevice": "emotion-boron",
+    "particle.firmwareVersion": "1.1.1",
+    "particle.targetPlatform": "bsom",
+    "cortex-debug.openocdPath": "${command:particle.getDebuggerOpenocdPath}"
+}
